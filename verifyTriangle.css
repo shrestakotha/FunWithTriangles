@@ -1,0 +1,80 @@
+
+:root {
+    --primary-color:  #3CAEA3;
+  }
+  .navigator{
+    text-align: right;
+    padding:1rem;
+    font-size: 18px;
+    
+  }
+  a{
+    padding-left: 1rem;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  header{
+
+    background-color: var(--primary-color);
+  }
+  h1{
+    padding-left: 0.5rem;
+    color: aliceblue;
+    font-size: 40px
+  }
+  h2{
+    font-size: 30px;
+  }
+  .angles{
+    text-align: center;
+    
+  }
+  .angle-input,.side{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color)
+    
+  }
+  
+  label,button{
+    display: block;
+
+  }
+  button{
+    background-color: var(--primary-color);
+    color: aliceblue;
+    padding:0.7rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    margin: auto;
+    width: 7rem;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    border:var(--primary-color);
+    font-size: 15px;
+  }
+  .vlabel{
+   padding: 1rem;
+   font-size: 24px;
+   display: block;
+  }
+  .qlabel{
+    display: inline;
+  }
+  form{
+    text-align: center;
+  }
+  #message{
+     text-size:20px;
+  }
+  #hypoContainer{
+    text-align: center;
+  }
+  .hlabel,.alabel{
+    padding: 1rem;
+    font-size: 24px;
+  }
+  #acontainer{
+    text-align: center;
+  }
