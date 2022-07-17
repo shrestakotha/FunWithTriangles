@@ -78,4 +78,37 @@
   #acontainer{
     text-align: center;
   }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-linkedin ,h4{
+   
+    color:white;
+  }
+  
+  /* Twitter */
+  .fa-instagram {
+    
+    color: white;
+    font-size: 40px;
+  }
+  footer{
+    background-color: var(--primary-color);
+    text-align: center;
+   
+    font-size: 30px;
+  }
   
