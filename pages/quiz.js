@@ -4,6 +4,7 @@ var message = document.querySelector('#message');
 const correctAnswers = ['90°', 'right angled','one right angle','equilateral triangle','85°']; 
 checkButton.addEventListener('click',calculateScore)
 function calculateScore(){
+    
     var score=0;
     var index=0;
     const formResults=new FormData(formQuestions);

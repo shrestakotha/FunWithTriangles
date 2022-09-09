@@ -3,6 +3,7 @@ var checkButton = document.querySelector("#isTriangle")
 var outputmsg=document.querySelector('.message')
 checkButton.addEventListener('click',verifyTriangle);
 function verifyTriangle(){
+    if(inputs.value){
    var  angle1=Number(inputs[0].value);
    var  angle2=Number(inputs[1].value);
    var  angle3=Number(inputs[2].value);
@@ -12,6 +13,9 @@ function verifyTriangle(){
    }
    else{
     outputmsg.innerText='the given angles does not form a triangle'
+   }}
+   else{
+    outputmsg.innerText='Enter all the inputs!!'
    }
 }
 function calculateSum(a,b,c){
